@@ -1,0 +1,12 @@
+.container {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title {
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: rgb(21, 76, 112);
+  margin-top: 50px;
+}

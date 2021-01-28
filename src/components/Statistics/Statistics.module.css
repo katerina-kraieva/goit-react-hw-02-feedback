@@ -1,0 +1,12 @@
+.bold {
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+}
+.list li {
+  font-size: 20px;
+  padding-top: 10px;
+  color: rgb(21, 76, 112);
+}

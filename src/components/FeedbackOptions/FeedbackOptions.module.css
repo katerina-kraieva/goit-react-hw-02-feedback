@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: inline-block;
+  width: 160px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 10px;
+  margin: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: #524f4e;
+  border: 0;
+  background: rgb(21, 76, 112, 0.1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.button:hover,
+.button:focus {
+  background: rgb(21, 76, 112, 0.7);
+  color: white;
+}
+
+.button:active {
+  outline: 0 !important;
+}
